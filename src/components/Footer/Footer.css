@@ -1,0 +1,73 @@
+.containerFooter {
+    background-color: #030303;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creditsContainer{
+    position: relative;
+    right: 25px;
+}
+.beforeLoveFooter {
+    padding-right: 5px;
+}
+.loveFooter {
+    animation-duration: 1.15s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-name: loveFooter;
+    position: absolute;
+}
+@keyframes loveFooter{
+    0% {
+        font-size: 18px;
+    }
+    16.5% {
+        font-size: 20px;
+    }
+    33% {
+        font-size: 18px;
+    }
+    50.5% {
+        font-size: 20px;
+    }
+    66% {
+        font-size: 18px;
+    }
+    100% {
+        font-size: 18px;
+    }
+}
+.containerFooter {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 750px) {
+    .containerFooter {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .footer {
+        display: block;
+    }
+    .footer p {
+        text-align: left;
+    }
+    .creditsContainer {
+        width: 100%;
+        position: static;
+        margin-top: 8px;
+    }
+}
+
+
+

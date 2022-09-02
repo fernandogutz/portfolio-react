@@ -1,0 +1,126 @@
+/* HEADER */
+.headerContainer{
+    margin: 0px auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    margin-bottom: -80px;
+    top: 0;
+    background-color: #00000060;
+    box-shadow: 0px 0px 10px #10101069;
+    border-radius: 0px 0px 30px 30px;
+    z-index: 2;
+}
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+.header__logo img {
+    height: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header__btn {
+    background-color: transparent;
+    border: none;
+    color: var(--white1);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    display: none !important;
+}
+.header__nav {
+    text-align: end;
+}
+.header__nav a{
+    color: var(--white1);
+    font-size: 18px;
+    padding: 0px 0px 0px 16px;
+}
+.header__nav a:hover{
+    color: var(--rosa1);
+}
+#checkMenu {
+    display: none;
+}
+
+
+.headerContainer, .containerHero, .containerAbout, .containerTechnologies, .containerProjects, .containerContact, .containerFooter {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 1250px) {
+    .hero {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        padding-left: 0;
+    }
+    .hero__img {
+        height: auto;
+    }
+    .hero__info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .hero__img {
+        border-top: 1px solid #585858;
+    }
+    .hero__img img {
+        border: none;
+    }
+    .containerHero, .fondoProjects {
+        background-position: top left;
+    }
+
+}
+@media (max-width: 750px) {
+    .header__logo img{
+        height: 30px;
+    }
+    .headerContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 0px 0px 20px 20px;
+    }
+    #barMenu {
+        text-align: right;
+        display: inline-flex !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #xMenu {
+        margin-bottom: 16px;
+        display: inline-flex !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #xMenu i, #barMenu i{
+        padding-left: 10px;
+    }
+    .header__nav {
+        position: absolute;
+        display: none;
+        top: 0;
+        right: 0;
+        padding: 30px 24px 32px 24px;
+        background-color: #101010e3;
+        text-align: right;
+        border-radius: 0 0 0 16px;
+        transition: all .5s;
+    }
+    .header__nav a {
+        display: block;
+        margin-top: 20px;
+    }
+    .activeNav {
+        right: 0;
+    }
+    #checkMenu:checked ~ .header__nav{
+        display: block;
+    }
+}
+

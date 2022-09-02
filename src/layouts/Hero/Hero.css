@@ -1,0 +1,178 @@
+.containerHero {
+    background-color: var(--black1);
+    background-image: url(../../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 180px 0px 100px 0px;
+}
+.hero {
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1100px;
+    border-radius: 20px;
+    align-content: center;
+    background-color: #1e1e1e50;
+    box-shadow: 0px 0px 15px #1010107a;
+}
+.hero__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.hero__title{
+    font-size: 115px;
+    font-weight: 500;
+    line-height: 0.85em;
+    margin: 0;
+}
+.hero__title span{
+    text-decoration:underline;
+    color: var(--rosa1);
+
+    display: block;
+    border-right: 4px solid;
+    width: 8.5ch;
+    
+    animation: typing 2s steps(9), blink .5s infinite step-end alternate;
+    animation-delay: 1.5s;
+    overflow: hidden;
+}
+@keyframes typing {
+    from { width: 0}
+}
+@keyframes blink {
+    50% { border-color: transparent}
+}
+.hero__subtitle{
+    font-size: 22px;
+    margin-top: 40px;
+    color: var(--gris1);
+}
+#heroHand {
+    animation-duration: 1.5s;
+    animation-name: saludarHero;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    font-size: 28px;
+}
+@keyframes saludarHero {
+    from {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.hero__subtitle--prev{
+    margin-bottom: 40px;
+}
+.hero__btn{
+    display: inline-block;
+    margin-top: 48px;
+    padding: 16px 40px;
+    border-radius: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+}
+.hero__btn--contact {
+    margin-left: 12px;
+    background: transparent;
+    padding: 15px 39px;
+}
+.hero__img {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border-radius: 0 0 20px 0;
+    overflow: hidden;
+    opacity: 100%;
+}
+.hero__img img {
+    border-bottom: 2px solid var(--rosa1);
+    border-right: 2px solid var(--rosa1);
+    border-radius: 0px 20px 20px 0px;
+}
+.headerContainer, .containerHero, .containerAbout, .containerTechnologies, .containerProjects, .containerContact, .containerFooter {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 1250px) {
+    .hero {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        padding-left: 0;
+    }
+    .hero__img {
+        height: auto;
+    }
+    .hero__info {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .hero__img {
+        border-top: 1px solid #585858;
+    }
+    .hero__img img {
+        border: none;
+    }
+    .containerHero{
+        background-position: top left;
+    }
+
+}
+@media (max-width: 750px) {
+    .hero__info {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 56px;
+        padding-top: 16px;
+    }
+    .hero__title {
+        font-size: 80px;
+    }
+    .hero__subtitle {
+        font-size: 20px;
+    }
+    .containerHero {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media (max-width: 600px) {
+    .hero__btn {
+        display: block;
+    }
+    .hero__btn--contact {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+@media (max-width: 500px) {
+    .hero__title {
+        font-size: 58px;
+    }
+    .hero__subtitle {
+        font-size: 18px;
+    }
+    #heroHand {
+        font-size: 22px;
+    }
+    .hero__img img {
+        border-radius: 20px;
+        width: 65%;
+    }
+}

@@ -1,13 +1,60 @@
-body {
+html {
+  scroll-behavior: smooth;
+}
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  transition-property: background-color, border, color;
+  transition-duration: .3s;
+}
+:root {
+  --white1: #ffffff;
+  --black1: #101010;
+  --black2: #181818;
+  --black3: #1e1e1e;
+  --black4: #282828;
+  --gris1: #c0c0c0;
+  --gris2: #d6d6d6;
+  --gris3: #e4e4e4;
+  --gris4: #f5f5f5;
+  --rosa1: #DE5E91;
+}
+*::selection{
+  background: var(--rosa1);
+  color: var(--white1);
+}
+body {
+  background-color: var(--black1);
+  font-family: 'Nunito Sans', sans-serif;
+  color: var(--white1);
+  overflow-x: hidden;
+}
+h1, h2, h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+a {
+  color: var(--rosa1);
+}
+.btn-primary {
+  background-color: var(--white1);
+  color: var(--black1);
+}
+.btn-primary:hover {
+  background-color: var(--rosa1);
+  color: var(--white1);
+}
+.btn-secondary {
+  background-color: transparent;
+  color: var(--white1);
+  border: 2px solid var(--white1);
+}
+.btn-secondary:hover {
+  background-color: transparent;
+  color: var(--rosa1);
+  border: 2px solid var(--rosa1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+

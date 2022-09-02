@@ -1,0 +1,50 @@
+.fondoProjects {
+    background-image: url(../../img/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.containerProjects {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.containerProjects__content {
+    max-width: 1200px;
+    width: 100%;
+}
+.projects__title{
+    font-size: 90px;
+    font-weight: 500;
+}
+.projects{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 16px;
+}
+.containerProjects {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 1250px) {
+    .fondoProjects {
+        background-position: top left;
+    }
+
+}
+@media (max-width: 750px) {
+    .projects__title {
+        font-size: 58px;
+    }
+    .projects {
+        display: block;
+    }
+    .containerProjects {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+

@@ -1,0 +1,63 @@
+.containerTechnologies {
+    background-color: var(--black1);
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+.technologies {
+    max-width: 1200px;
+    width: 100%;
+}
+.technologies__title{
+    font-size: 90px;
+    font-weight: 500;
+    text-align: start;
+}
+.technologies__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    align-content: space-around;
+}
+.tech-list {
+    font-size: 20px;
+    color: var(--gris1);
+    margin-top: 30px;
+}
+.tech__title {
+    margin-bottom: 12px
+}
+.tech-img {
+    text-align: end;
+    margin: 0;
+    padding: 0;
+}
+.tech-img img {
+    margin-bottom: -5px;
+}
+
+.containerTechnologies {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+@media (max-width: 750px) {
+    .technologies__title {
+        font-size: 58px;
+    }
+    .containerTechnologies {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 60px;
+    }
+    .technologies__content {
+        grid-template-columns: 1fr;
+    }
+    .tech-img{
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .tech-list {
+        font-size: 18px;
+    }
+}
