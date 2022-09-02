@@ -3,7 +3,7 @@ Es la nueva versión de mi portfolio, decidí migrar de JS vainilla a React.js c
 
 PD: Cualquier aporte/comentario será bien recibido! :)
 
-# Tecnologías
+## Tecnologías
 - JavaScript con React.js
 - HTML5
 - CSS3
