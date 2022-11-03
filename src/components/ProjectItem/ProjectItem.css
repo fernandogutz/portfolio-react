@@ -1,11 +1,12 @@
 .project {
-    background-color: var(--black4);
+    background-color: #28282894;
     border-radius: 20px;
 }
 .project__tag {
     padding: 5px 30px;
     border-radius: 20px 20px 0px 0px;
-    background-color: var(--rosa1);
+    background-color: #c09514;
+    color: var(--black1);
 }
 .project__img {
     width: 100%;

@@ -3,7 +3,7 @@ import './ProjectItem.css';
 
 const ProjectItem = ({tag, urlImg, altImg, title, description, tech, textBtn, urlBtn}) => {
   return (
-    <article className="project">
+    <article className="project" data-aos="fade-up">
       <h4 className="project__tag">{tag}</h4>
       <img className="project__img" src={urlImg} alt={altImg}/>
       <section className="project__contentSection">
