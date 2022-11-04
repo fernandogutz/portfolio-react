@@ -47,35 +47,9 @@
 #checkMenu {
     display: none;
 }
-
-
 .headerContainer, .containerHero, .containerAbout, .containerTechnologies, .containerProjects, .containerContact, .containerFooter {
     padding-left: 30px;
     padding-right: 30px;
-}
-@media (max-width: 1250px) {
-    .hero {
-        grid-template-rows: auto auto;
-        grid-template-columns: 1fr;
-        padding-left: 0;
-    }
-    .hero__img {
-        height: auto;
-    }
-    .hero__info {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .hero__img {
-        border-top: 1px solid #585858;
-    }
-    .hero__img img {
-        border: none;
-    }
-    .containerHero, .fondoProjects {
-        background-position: top left;
-    }
-
 }
 @media (max-width: 750px) {
     .header__logo img{
