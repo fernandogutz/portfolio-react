@@ -1,4 +1,4 @@
-import fernandoGutzImg from '../img/proyectos/fernandogutz.png';
+import fernandoGutzImg from '../img/proyectos/fernandogutz.jpg';
 import pomotaskImg from '../img/proyectos/pomotask.png';
 import beDigitalImg from '../img/proyectos/beDigital.png';
 import delegaImg from '../img/proyectos/delega.png';
@@ -12,7 +12,7 @@ const listProjects = [
         "urlImg": godkoutImg,
         "altImg": "Godkout Web",
         "title": "Godkout.com",
-        "description": "Me apasiona el deporte desde que tengo memoria. Este sitio web es la base sobre la cual construyo y documento los distintos proyectos vinculados al entrenamiento físico.",
+        "description": "Me apasiona el entrenamiento físico desde que tengo memoria y quise crear algo en torno a ello. GODKOUT es una plataforma que busca profesionalizar el Street Workout (conocido popularmente como Calistenia), deporte que ha sido reconocido oficialmente en Chile en 2021. Busco poder vincular la plataforma con organizaciones de distintos continentes para que los atletas puedan competir globalmente.",
         "tech": "HTML5 - CSS3 - WordPress - WooCommerce - Elementor",
         "textBtn": "Visitar sitio",
         "urlBtn": "https://godkout.com/"

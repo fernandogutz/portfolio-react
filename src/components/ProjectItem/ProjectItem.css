@@ -5,7 +5,7 @@
 .project__tag {
     padding: 5px 30px;
     border-radius: 20px 20px 0px 0px;
-    background-color: #c09514;
+    background-color: var(--gris2);
     color: var(--black1);
 }
 .project__img {
