@@ -20,6 +20,7 @@ html {
   --gris2: #d6d6d6;
   --gris3: #e4e4e4;
   --gris4: #f5f5f5;
+  --gris5: #838383;
   --rosa1: #EFB810;
 }
 *::selection{
@@ -31,6 +32,17 @@ body {
   font-family: 'Nunito Sans', sans-serif;
   color: var(--white1);
   overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #282828;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gris5);
+  border-radius: 6px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--rosa1);
 }
 h1, h2, h3 {
   font-family: 'Bebas Neue', cursive;

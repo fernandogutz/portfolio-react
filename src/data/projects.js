@@ -1,9 +1,7 @@
-import fernandoGutzImg from '../img/proyectos/fernandogutz.jpg';
 import pomotaskImg from '../img/proyectos/pomotask.png';
-import beDigitalImg from '../img/proyectos/beDigital.png';
+import marsImg from '../img/proyectos/mars.jpg';
 import delegaImg from '../img/proyectos/delega.png';
 import godkoutImg from '../img/proyectos/godkout.jpg';
-import innovaImg from '../img/proyectos/innova-dental.jpg';
 
 const listProjects = [
     
@@ -12,10 +10,21 @@ const listProjects = [
         "urlImg": godkoutImg,
         "altImg": "Godkout Web",
         "title": "Godkout.com",
-        "description": "Me apasiona el entrenamiento físico desde que tengo memoria y quise crear algo en torno a ello. GODKOUT es una plataforma que busca profesionalizar el Street Workout (conocido popularmente como Calistenia), deporte que ha sido reconocido oficialmente en Chile en 2021. Busco poder vincular la plataforma con organizaciones de distintos continentes para que los atletas puedan competir globalmente.",
-        "tech": "HTML5 - CSS3 - WordPress - WooCommerce - Elementor",
+        "description": "Me apasiona el entrenamiento físico desde que tengo memoria y quise crear algo en torno a ello. GODKOUT es una plataforma que busca profesionalizar el Street Workout, deporte que ha sido reconocido oficialmente en Chile en 2021. Busco poder vincular la plataforma con organizaciones de distintos continentes para que los atletas puedan competir globalmente.",
+        "tech": "Figma - HMTL5 - CSS3 - React.js - Git",
         "textBtn": "Visitar sitio",
         "urlBtn": "https://godkout.com/"
+    },
+
+    {
+        "tag": "Proyecto personal",
+        "urlImg": marsImg,
+        "altImg": "Proyecto Mars Photos",
+        "title": "Mars",
+        "description": "Usando la REST API de NASA, desarrollé este proyecto que muestra las últimas 24 imágenes de Marte tomadas por los Rovers Curiosity, Opportunity y Spirit. Además, he incorporado un elemento 3D interactivo con Three.js (que funciona sobre WebGL) y animaciones CSS/JS para brindar una experiencia web un poco más inmersiva.",
+        "tech": "HTML5 - CSS3 - JavaScript - Three.js - Git",
+        "textBtn": "Ir a GitHub",
+        "urlBtn": "https://github.com/fernandogutz/mars"
     },
     
     {
@@ -29,49 +38,17 @@ const listProjects = [
         "urlBtn": "https://pomotask.bedigital.cl/"
     },
     
-    {
-        "tag": "Proyecto personal",
-        "urlImg": fernandoGutzImg,
-        "altImg": "Portfolio personal con React.js",
-        "title": "Fernandogutz.com",
-        "description": "Sitio web personal desarrollado con React.js. Es la nueva versión de mi portfolio (anteriormente full WordPress). He incorporado un blog que lo alimento con la API REST de WP para usarlo como Headless CMS, me gusta usar este espacio para escribir sobre distintos temas de mi interés.",
-        "tech": "HTML5 - CSS3 - JavaScript - React.js - Git",
-        "textBtn": "Ir a GitHub",
-        "urlBtn": "https://github.com/fernandogutz/portfolio-react"
-    },
 
     {
         "tag": "Cliente",
         "urlImg": delegaImg,
         "altImg": "Theme WordPress a medida Delega.cl",
         "title": "Delega Theme WP",
-        "description": "En mi época de Freelance tuve la oportunidad de trabajar con increíbles personas y sus empresas, entre todos ellos destaco Delega, un sitio web implementado en WordPress a través de un Child Theme maquetado desde cero (HTML y CSS). Con este proyecto logré adentrarme bastante en el core de WP, formando misbases para seguir desarrollando temas y plugins a medida con PHP.",
+        "description": "Siendo Freelance tuve la oportunidad de trabajar con increíbles personas y sus empresas, entre todos ellos destaco Delega, un sitio web implementado en WordPress a través de un Child Theme maquetado desde cero (HTML y CSS). Con este proyecto logré adentrarme bastante en el core de WP, formando mis bases para seguir desarrollando temas y plugins a medida con PHP.",
         "tech": "HTML5 - CSS3 - JavaScript - jQuery - PHP - WordPress - WooCommerce",
         "textBtn": "Visitar sitio",
         "urlBtn": "https://delega.cl/"
     },
-
-    {
-        "tag": "Cliente",
-        "urlImg": innovaImg,
-        "altImg": "Innova Dental web Clínica",
-        "title": "Innova Dental",
-        "description": "Sitio web desarrollado para Clínica Innova Dental ubicada en Concepción. Decidí trabajarla como una Landing Page cuyo objetivo principal es conseguir Reservas de Hora mediante un formulario implementado en el mismo sitio web.",
-        "tech": "HTML5 - CSS3 - WordPress - Elementor",
-        "textBtn": "Visitar sitio",
-        "urlBtn": "https://innova-dental.cl/"
-    },
-
-    {
-        "tag": "Emprendimiento",
-        "urlImg": beDigitalImg,
-        "altImg": "Be Digital Studio",
-        "title": "Be Digital",
-        "description": "Be Digital es un estudio descentralizado que se especializa en la creación de productos y experiencias digitales. El sitio fue diseñado con Elementor para reducir el tiempo de desarrollo y la complejidad técnica, centrando los esfuerzos en optimizar las interfaces a nivel de UX/UI.",
-        "tech": "HTML5 - CSS3 - WordPress - Elementor",
-        "textBtn": "Visitar sitio",
-        "urlBtn": "https://bedigital.cl/"
-    }
 
 ]
 

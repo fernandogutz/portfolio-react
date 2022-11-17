@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import AOS from 'aos';
 import './index.css';
 import 'aos/dist/aos.css';
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
 import Header from './components/Header/Header';
 import Hero from './layouts/Hero/Hero';
@@ -17,6 +19,8 @@ AOS.init({
   offset: 100,
   delay: 500
 });
+
+gsap.registerPlugin(ScrollTrigger);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
