@@ -39,7 +39,7 @@
 .header__nav a{
     color: var(--white1);
     font-size: 18px;
-    padding: 0px 0px 0px 16px;
+    padding: 0px 0px 0px 32px;
 }
 .header__nav a:hover{
     color: var(--rosa1);

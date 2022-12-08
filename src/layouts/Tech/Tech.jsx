@@ -6,7 +6,7 @@ const Tech = () => {
   return (
         <div id="tecnologias" className="containerTechnologies">
             <div className="technologies" data-aos="fade-up">
-                <h2 className="technologies__title">Tecnologías</h2>
+                <h2 className="technologies__title">Tecnologías 💻</h2>
                 <div className="technologies__content">
                     <div className="tech-list">
                         <h4 className="tech__title">💙 JavaScript: React.js - jQuery - Frontity - EcmaScript6+</h4>

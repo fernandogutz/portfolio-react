@@ -5,6 +5,8 @@ import './index.css';
 import 'aos/dist/aos.css';
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { peticion } from './data/strapiTest';
+
 
 import Header from './components/Header/Header';
 import Hero from './layouts/Hero/Hero';
@@ -13,6 +15,7 @@ import Tech from './layouts/Tech/Tech';
 import Projects from './layouts/Projects/Projects';
 import Contact from './layouts/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import Posts from './components/Blog/Posts';
 
 AOS.init({
   duration: 1000,
@@ -30,6 +33,9 @@ root.render(
     <About/>
     <Tech/>
     <Projects/>
+    {
+      //peticion()
+    }
     <Contact/>
     <Footer/>
   </React.StrictMode>
