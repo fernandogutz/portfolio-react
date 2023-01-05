@@ -1,6 +1,7 @@
 .project {
     background-color: #28282894;
     border-radius: 20px;
+    overflow: hidden;
 }
 .project__tag {
     padding: 5px 30px;

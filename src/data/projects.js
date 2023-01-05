@@ -2,6 +2,8 @@ import pomotaskImg from '../img/proyectos/pomotask.png';
 import marsImg from '../img/proyectos/mars.jpg';
 import delegaImg from '../img/proyectos/delega.png';
 import godkoutImg from '../img/proyectos/godkout.jpg';
+import bedigital from '../img/proyectos/beDigital2.png';
+import iaGenerator from '../img/proyectos/imageGenerator.jpg';
 
 const listProjects = [
     
@@ -14,6 +16,17 @@ const listProjects = [
         "tech": "Figma - HMTL5 - CSS3 - React.js - Git",
         "textBtn": "Visitar Sitio",
         "urlBtn": "https://godkout.com/"
+    },
+
+    {
+        "tag": "Proyecto personal",
+        "urlImg": bedigital,
+        "altImg": "Be Digital",
+        "title": "Be Digital",
+        "description": "Be Digital es la empresa mediante la cual desarrollo Sitios Web y tiendas en línea para clientes de distintos rubros. Suelo colaborar con otros equipos o Freelancers para desarrollar en conjunto, usando tecnologías muy variadas. La mayoría de los proyectos son en WP y en ocaciones desarrollo a medida con JavaScript/React o PHP",
+        "tech": "Figma - HMTL5 - CSS3 - React.js - Git - WordPress - PHP",
+        "textBtn": "Visitar Sitio",
+        "urlBtn": "https://bedigital.cl"
     },
 
     {
@@ -37,18 +50,29 @@ const listProjects = [
         "textBtn": "Visitar Sitio",
         "urlBtn": "https://pomotask.bedigital.cl/"
     },
-    
+
+    {
+        "tag": "Proyecto Personal",
+        "urlImg": iaGenerator,
+        "altImg": "Generador de imágenes con IA",
+        "title": "AI Image Generator",
+        "description": "El generador de imágenes con Inteligencia Artificial es uno de los tantos proyectos que he desarrollado explorando la API de OpenAI. La herramienta cuenta con la capacidad de descargar las imágenes generadas en alta resolución de manera 100% gratis, suelo usarla para obtener gráficas y referencias visuales para mis proyectos.",
+        "tech": "HTML5 - CSS3 - Vainilla JavaScript - OpenAI API",
+        "textBtn": "Visitar Sitio",
+    },
 
     {
         "tag": "Cliente",
         "urlImg": delegaImg,
         "altImg": "Theme WordPress a medida Delega.cl",
         "title": "Delega Theme WP",
-        "description": "Siendo Freelance tuve la oportunidad de trabajar con increíbles personas y sus empresas, entre todos ellos destaco Delega, un sitio web implementado en WordPress a través de un Child Theme maquetado desde cero (HTML y CSS). Con este proyecto logré adentrarme bastante en el core de WP, formando mis bases para seguir desarrollando temas y plugins a medida con PHP.",
+        "description": "Delega es una empresa prestadora de servicios, he desarrollado el sitio web en WordPress a través de un Child Theme maquetado desde cero (HTML y CSS). Con este proyecto logré adentrarme bastante en el core de WP, formando mis bases para seguir desarrollando temas y plugins a medida con PHP.",
         "tech": "HTML5 - CSS3 - JavaScript - jQuery - PHP - WordPress - WooCommerce",
         "textBtn": "Visitar Sitio",
         "urlBtn": "https://delega.cl/"
     },
+
+
 
 ]
 
