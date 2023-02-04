@@ -8,7 +8,7 @@ const Projects = () => {
     <div id="proyectos" className="fondoProjects">
         <div className="containerProjects">
             <div className="containerProjects__content">
-                <h2 className="projects__title">Proyectos ✒️</h2>
+                <h2 className="projects__title">Portfolio ✒️</h2>
                 <div className="projects">
                     {
                         listProjects.map(project => (
