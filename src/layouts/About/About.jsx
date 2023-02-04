@@ -12,7 +12,7 @@ const About = () => {
                   <img src={fernando} alt="perfect"/>
               </div> */}
               <div className="wraper">
-                <h2 className="about__title" data-aos="fade-up">Sobre mí 👨‍💻</h2>
+                <h2 className="about__title" data-aos="fade-up">Sobre mí 🏋️‍♂️</h2>
                 <p className="about__text" data-aos="fade-up">
                     Soy un <strong>desarrollador de software</strong> enfocado en tecnologías web. 
                     <br/>

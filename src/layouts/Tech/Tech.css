@@ -24,10 +24,30 @@
     padding-right: 30px;
     padding-bottom: 80px;
 }
+
+.techFilters {
+    margin-top: 12px;
+}
+
+.techFilters button{
+    background-color: transparent;
+    padding: 6px;
+    font-size: 16px;
+    color: var(--gris1);
+    border: 1px solid var(--gris1);
+    margin-right: 8px;
+    border-radius: 10px;
+}
+
+.techFilters button:hover, .techFilters .activeCategory{
+    background-color: var(--gris1);
+    color: var(--black1);
+}
+
 .tech-list {
     font-size: 20px;
     color: var(--gris1);
-    margin-top: 30px;
+    margin-top: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px
