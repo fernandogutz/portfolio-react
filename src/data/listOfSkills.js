@@ -95,12 +95,6 @@ export const listOfSkills = [
 
     {
         "tag": "back",
-        "urlImg": node,
-        "title": "Node",
-    },
-
-    {
-        "tag": "back",
         "urlImg": wp,
         "title": "WordPress",
     },
@@ -121,12 +115,6 @@ export const listOfSkills = [
         "tag": "design",
         "urlImg": inkscape,
         "title": "Inkscape",
-    },
-
-    {
-        "tag": "tool",
-        "urlImg": docker,
-        "title": "Docker",
     },
 
     {
