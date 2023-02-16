@@ -24,6 +24,7 @@
     animation-iteration-count: infinite;
     animation-name: loveFooter;
     position: absolute;
+    margin-top: -3px;
 }
 @keyframes loveFooter{
     0% {
